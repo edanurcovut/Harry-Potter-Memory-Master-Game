@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg_login"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/ptbold"
+        android:gravity="center"
+
+        android:text="Lütfen Zorluk Seviyesini Seçiniz"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btntwotwo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#206565"
+        android:fontFamily="@font/ptbold"
+        android:text="2 X 2"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnfourfour"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="36sp"
+        android:fontFamily="@font/ptbold"
+
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#206565"
+        android:text="4 X 4" />
+
+    <Button
+        android:id="@+id/btnsixsix"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="36sp"
+        android:fontFamily="@font/ptbold"
+
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#206565"
+        android:text="6 X 6" />
+
+</LinearLayout>
